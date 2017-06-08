@@ -1,0 +1,734 @@
+.divConvenioJarbasDoles {
+  border: 2px solid lightgray;
+  border-radius: 25px;
+}
+
+.jarbas_logotipo {
+  background: white;
+  display: inline-block;
+  height: 82px;
+  margin-left: -100px;
+  margin-top: 135px;
+  position: relative;
+  width: 474px;
+}
+
+.jarbas_logotipo:before {
+  border-bottom: 90px solid white;
+  border-right: 0px solid transparent;
+  border-left: 125px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: -8px;
+  width: 0;
+  left: 474px;
+  transform: rotate(180deg);
+}
+
+.jarbas_logotipo img {
+  width: 356px !important;
+  height: 60px !important;
+}
+
+.jarbas-equipeMedica .tituloMembroEquipe {
+  font-weight: 500;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.jarbas-equipeMedica .equipeMedica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.jarbas-equipeMedica .equipeMedica .membroDaEquipe {
+  margin: 0 5em;
+}
+
+.jarbas-equipeMedica .equipeMedica .membroDaEquipe .fotoMembro {
+  width: 100%;
+}
+
+.jarbas-equipeMedica .equipeMedica .membroDaEquipe .fotoMembro img {
+  width: inherit;
+  border-radius: 5%;
+}
+
+.jarbas-equipeMedica .equipeMedica .membroDaEquipe .nomeMembro {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.jarbas-equipeMedica .equipeMedica .membroDaEquipe .conselhoMembro {
+  text-align: center;
+}
+
+.jarbas_logotipo_mobile {
+  height: 42px;
+}
+
+.jarbas_logotipo_mobile img {
+  position: absolute;
+  bottom: 50%;
+  left: 4px;
+  width: 96%;
+  top: 2px;
+}
+
+.jarbas_navigation {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+ul > li.menuJarbas {
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+}
+
+li ul {
+  display: none;
+  background-color: white;
+  padding: 0px;
+  min-width: 140px;
+}
+
+.jarbas_navigation li ul a {
+  text-align: center;
+  display: flex !important;
+  line-height: 18px !important;
+  align-items: center;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+li:hover ul {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 63px;
+  left: 0px;
+  min-width: 140px;
+}
+
+.jarbas_acesso_paciente {
+  direction: ltr;
+  background: white;
+  display: inline-block;
+  height: 56px;
+  right: 14px;
+  top: 40px;
+  position: fixed;
+  width: 500px;
+  text-align: left;
+  z-index: 2;
+  padding-top: 9px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.jarbas_acesso_paciente:before {
+  border-bottom: 88px solid white;
+  border-right: 0px solid transparent;
+  border-left: 46px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: -2px;
+  width: 0;
+  left: -66px;
+  transform: rotate(-90deg);
+}
+
+.jarbas_acesso_paciente form:last-child {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: -5px;
+  right: 15px;
+}
+
+.jarbas_acesso_paciente form:last-child label {
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.jarbas_acesso_paciente form:last-child [name="clienteprotocolo"] {
+  width: 7em;
+  height: 2em;
+  font-size: 1em;
+}
+
+.jarbas_acesso_paciente form:last-child [name="clientesenha"] {
+  width: 4em;
+  height: 2em;
+  font-size: 1em;
+}
+
+.jarbas_acesso_paciente form:last-child button {
+  height: 2em;
+  font-size: 1em;
+}
+
+.jarbas_acesso_paciente form:first-child {
+  position: absolute;
+  bottom: -9px;
+  display: flex;
+}
+
+.jarbas_acesso_paciente form:first-child input {
+  margin: 0px 5px;
+}
+
+
+.android-header {
+  position: fixed;
+}
+
+.android-content {
+  height: calc(100% - 64px);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.jarbas_contatos .areaDoContato {
+  margin-top: 75px;
+}
+
+.jarbas_contatos .areaDoContato [class*=jarbas_contato] {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.jarbas_contatos .areaDoContato [class*=jarbas_contato] i {
+  width: 20px;
+  margin: 0px 5px;
+  font-size: 1.5em;
+}
+
+.jarbas_contatos .areaDoContato [class*=jarbas_contato] span, .jarbas_contatos .areaDoContato [class*=jarbas_contato] a {
+  margin-left: 5px;
+}
+
+.jarbas_contatos .unidadesContato {
+  border-bottom: #01016f 4px solid;
+  opacity: 1;
+}
+
+.jarbas_contatos .unidades {
+  margin: 30px 0;
+  border-bottom: #01016f 1px solid;
+}
+
+.jarbas_contatos .unidades span {
+  display: inline-flex;
+  width: 100%;
+}
+
+.jarbas_contatos .unidades span.nomeUnidade {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.jarbas_contatos .unidades span.horarioUnidade {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.jarbas_IGE, .perguntasFrequentes {
+  margin-top: 75px;
+}
+
+.jarbas_IGE .tabelasIges, .perguntasFrequentes .perguntas {
+  display: flex;
+  justify-content: center;
+}
+
+.perguntasFrequentes .perguntas #listaPerguntas, .perguntasFrequentes .introducaoPerguntas { 
+  width: 80%;
+}
+.perguntasFrequentes .introducaoPerguntas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.perguntasFrequentes .introducaoPerguntas div {
+  margin: 10px 0px;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.footerJarbasDoles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerJarbasDoles .mapaDoSiteJarbasDoles {
+  width: 80%;
+  padding-left: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerJarbasDoles .mapaDoSiteJarbasDoles .rowMapaDoSite {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerJarbasDoles .mapaDoSiteJarbasDoles ul {
+  padding-left: 10px;
+}
+
+.footerJarbasDoles .mapaDoSiteJarbasDoles  div ul li {
+  list-style: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  footer {
+    width: 96%;
+    padding: 0px !important;
+  }
+
+  .footerJarbasDoles .mapaDoSiteJarbasDoles  {
+    flex-direction: column;
+  }
+  .footerJarbasDoles .mapaDoSiteJarbasDoles  div ul li {
+    font-size: 0.9em;
+  }
+
+  .footerJarbasDoles, .footerJarbasDoles .mapaDoSiteJarbasDoles {
+    flex-direction: column;
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  .footerJarbasDoles .mapaDoSiteJarbasDoles .rowMapaDoSite {
+    flex-direction: column;
+  }
+
+  .logosJarbasDolesSelos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footerJarbasDoles .mapaDoSiteJarbasDoles div span {
+  font-size: 1.2em;
+  color: #283593;
+  font-weight: 700;
+}
+
+.respostaItemIndice {
+  padding-left: 35px;
+}
+
+.jarbas_IGE .tabelasIges .tabela {
+  overflow: auto;
+  height: 300px;
+}
+
+.jarbas_IGE .tabelasIges .tabela table {
+  white-space: normal !important;
+}
+
+.jarbas_IGE .tabelasIges .radioButtonIGE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jarbas-ultimosArtigos .ultimosArtigos {
+  border-bottom: #01016f 4px solid;
+  opacity: 1;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos {
+  position: relative;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .ultimasNoticias {
+  text-align: start;
+  height: 100px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .ultimasNoticias .imagemNoticia {
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  position: absolute;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .ultimasNoticias .imagemNoticia img {
+  width: inherit;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .ultimasNoticias .resumoNoticia {
+  font-size: 12px;
+  margin-left: 110px;
+  opacity: 1;
+  color: black;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .ultimasNoticias .tituloNoticia {
+  margin-left: 110px;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .acessarOBlog {
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+  cursor: pointer;
+}
+
+.jarbas-ultimosArtigos .areaDosUltimosArtigos .acessarOBlog:hover {
+  color: gray;
+}
+
+.hoda5Image {
+  height: 120px;
+}
+
+.hoda5Image img {
+  height: initial;
+}
+
+.hoda5TileArtigo {
+  display: flex;
+  justify-content: center;
+}
+
+.menuAtivo {
+  border-bottom: 4px solid #8bc34a !important;
+}
+
+.jarbas_resultados_de_exames iframe {
+  border: none;
+  background-color: #59756F;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  height: 30em !important;
+}
+
+.jarbas_resultados_de_exames .android-wear-band {
+  background-color: #99b1a3;
+}
+
+.jarbas_resultados_de_exames .android-wear-band .android-wear-band-text {
+  max-width: 90%;
+  margin-left: 4%;
+}
+
+.shadow_logotipo_jarbas_transisao {
+  animation-name: sombraLogotipo;
+  animation-duration: 0.5s;
+}
+
+.shadow_logotipo_jarbas {
+  -webkit-filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.5));
+  -moz-filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+  -ms-filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+  -o-filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes sombraLogotipo {
+  from {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.5));
+    -moz-filter: drop-shadow(0 0px 0px rgba(0, 0, 0, 0.5));
+    -ms-filter: drop-shadow(0 0px 0px rgba(0, 0, 0, 0.5));
+    -o-filter: drop-shadow(0 0px 0px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 0px 0px rgba(0, 0, 0, 0.5));
+  }
+  to {
+    -webkit-filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.5));
+    -moz-filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+    -ms-filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+    -o-filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.mdl-mega-footer--social-btn {
+  visibility: hidden;
+}
+
+.mdl-mega-footer--social-btn img {
+  width: 27px;
+  visibility: hidden;
+}
+
+p {
+  text-align: justify;
+}
+
+.selos_jarbas img {
+  width: 160px;
+  height: 110px;
+  padding: 10px;
+}
+
+.android-mobile-title {
+  background-color: white;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
+[name="resultados_de_exames"], [name="historia"], [name="contato"] {
+  top: -150px;
+}
+
+.exame_Ige, .exame_Manual, .exame_Ige_Abaixo, .exame_Manual_Abaixo {
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: all 0.2s ease-in 0.2s;
+}
+
+.exame_Ige:hover, .exame_Manual:hover, .exame_Ige_Abaixo:hover, .exame_Manual_Abaixo:hover {
+  box-shadow: 3px 4px 2px 0px, 6px 9px 11px 0px;
+}
+
+.exame_Ige div, .exame_Manual div, .exame_Ige_Abaixo div, .exame_Manual_Abaixo div {
+  font-size: 3em;
+  font-weight: 600;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .jarbas_acesso_paciente {
+    right: 15px;
+    top: 36px;
+  } 
+
+  .jarbas_acesso_paciente {
+      width: 440px;
+      background: none;
+  }
+  .jarbas_acesso_paciente::before {
+      border-bottom: none;
+      border-right: none;
+      border-left: none;
+  }
+
+  .jarbas_acesso_paciente form:first-child label.texto_pesquisa {
+    display: none;
+  }
+
+}
+
+@media (max-width: 980px) {
+  .jarbas_acesso_paciente {
+    right: 0px;
+    top: -7px;
+    z-index: 5;
+  }
+  .jarbas-equipeMedica .equipeMedica {
+    display: block;
+  }
+  .jarbas-equipeMedica .equipeMedica .membroDaEquipe {
+    margin: 0 2em;
+  }
+  .android-mobile-title {
+    display: block;
+  }
+  .android-mobile-title img {
+    height: 54px;
+  }
+}
+
+@media (max-width: 490px) {
+  .jarbas_acesso_paciente form:first-child input {
+    display: none;
+  }
+
+  .jarbas_acesso_paciente form:first-child label.icone-pesquisa {
+    right: -186px;
+  }
+
+  .jarbas_acesso_paciente .formsSearchEResultadoDeExame.lupaOpen form:first-child input {
+    display: block;
+  }
+
+  .jarbas_acesso_paciente .formsSearchEResultadoDeExame.lupaOpen form:first-child label {
+    right: -9px;
+  }
+
+  .jarbas_acesso_paciente .formsSearchEResultadoDeExame.lupaOpen form:first-child {
+    right: 33px;
+  }
+
+  .jarbas_acesso_paciente .formsSearchEResultadoDeExame.lupaOpen form:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .jarbas_acesso_paciente form:first-child label.icone-pesquisa {
+    right: -42px;
+  }
+  .jarbas_acesso_paciente {
+    width: 290px;
+  }
+  .jarbas_contatos .areaDoContato {
+    margin-top: 0px;
+  }
+  .mdl-tabs__tab {
+    font-size: 7px;
+    padding: 0 7px;
+  }
+  .jarbas-equipeMedica .equipeMedica {
+    display: block;
+  }
+  .jarbas-equipeMedica .equipeMedica .membroDaEquipe {
+    margin: 0 1em;
+  }
+}
+
+.card {
+  margin-bottom: 3em;
+}
+
+.footerCard {
+  background-color: #374779;
+}
+
+ul.share-buttons {
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li {
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+ul.share-buttons img {
+  width: 32px;
+}
+
+.elementNotVisible {
+  display: none;
+}
+
+.exameItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rolldown-list {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.rolldown-list li {
+  padding: 1em;
+  margin-bottom: .125em;
+  display: block;
+  list-style: none;
+  text-transform: uppercase;
+  color: #0202bb;
+}
+
+.cssanimations .rolldown-list li {
+  visibility: hidden;
+  -moz-animation: rolldown 0.7s 1;
+  -webkit-animation: rolldown 0.7s 1;
+  animation: rolldown 0.7s 1;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.rolldown-list li:nth-child(2n) {
+  background-color: #c8c8c8;
+}
+
+.rolldown-list li:nth-child(2n+1) {
+  background-color: #DFDFDF;
+}
+
+.rolldown-list li:hover {
+  background-color: #0202bb;
+  color: white;
+  font-weight: bold;
+}
+
+#listaCalculadora {
+  width: 80%;
+}
+
+.h5Button:hover {
+  color: white;
+  background-color: blue;
+}
+
+.h5Button {
+  color: blue;
+  background-color: white;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.h5FormCalculadora {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h5ButtonCalculadora {
+  display: flex;
+  justify-content: center;
+}
